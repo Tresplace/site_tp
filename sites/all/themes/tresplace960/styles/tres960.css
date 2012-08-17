@@ -1,0 +1,254 @@
+body {
+
+	font-family: 'Museo300Regular';
+	color: #000;
+	font-size:16px;
+	padding:0px;
+	margin:0px;
+	background-color:#410002;
+}
+#back
+{
+	background: url(../images/bg-repeat.gif);	
+}
+a {
+	color: #961b1e;
+}
+#main
+{
+	min-height:400px;
+}
+#main-content {
+
+}
+#site-header
+{
+	margin-bottom:0px;
+}
+#logo
+{
+	margin-top:48px;
+}
+#login
+{
+	background: url(../images/login-tab.png);
+	display:block;
+	width:43px;
+	height:25px;
+	float:right;
+	padding:10px 14px;
+}
+#login a
+{
+	font-family: 'Museo700Regular';
+	font-size: 16px;
+	text-decoration: none;
+	color:#fff;
+font-weight:lighter;
+}
+#login a:hover
+{
+text-decoration: underline;
+}
+ul#main-menu {
+	float: right;
+}
+ul#main-menu li
+{
+	padding-right:54px;
+}
+ul#main-menu li.last
+{
+	padding-right:0px;
+}
+
+ul#main-menu li a, ul#main-menu li a:visited {
+	font-family: 'Museo700Regular';
+	font-size: 16px;
+	text-decoration: none;
+}
+ul#main-menu li a:hover {
+	color: #757575;
+}
+ul#main-menu li a.active {
+	color: #5b1315;
+}
+h2 {
+	font-size: 32px;
+	color: #961b1e;
+	font-family: 'Museo700Regular';
+	margin-bottom: 0px;
+}
+h2 a {
+	text-decoration: none;
+}
+
+body.page-blog h1 {
+	display: none;
+}
+
+/*social*/
+.fb-like {
+	position: absolute;
+	top: -4px;
+	height: 34px;
+}
+.view-blog-page .views-row
+{
+	background-color:#fff;
+	border:1px solid #e1e1e1;
+	padding:22px;
+	margin-bottom:20px;
+} 
+
+#block-block-1
+{
+	margin-top:254px;
+}
+#block-block-1 .content
+{
+	float:right;
+}
+#block-block-1 .fb
+{
+	padding-left:17px;
+}
+#block-menu-menu-footer-navigation
+{
+	margin-top:274px;
+
+}
+
+#block-menu-menu-footer-navigation ul {
+	list-style-type: none;
+	margin:0px;
+	padding:0px;
+	text-transform: uppercase;
+
+}
+#block-menu-menu-footer-navigation ul li {
+	float: left;
+	display: block;
+	margin:0px;
+	padding-right:50px;
+}
+#block-menu-menu-footer-navigation ul li a {
+	font-family: 'Museo300Regular';
+	color: white;
+	font-size: 14px;
+	text-shadow: 2px 2px 2px #000;
+	text-decoration: none;
+}
+li.expanded, li.collapsed, li.leaf {
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+/*Name and date*/
+.namedate {
+	margin-bottom: 14px;
+}
+.namedate {
+	font-family: 'Museo300Regular';
+	font-size: 14px;
+	color: #961b1e;
+}
+.signature
+{
+	color:#961b1e;
+	font-family: 'Museo700Regular';
+	font-size:16px;
+
+}
+#footer
+{
+	clear:both;
+    background-color: transparent;
+    background-image: url("../images/pg-bottom.png");
+    background-origin: padding-box;
+    background-position: center bottom;
+    background-repeat: repeat-x;
+    background-size: auto auto;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+padding:0;
+margin:0;
+position:static;
+
+
+}
+
+a.feed-icon
+{
+	display:none;
+}
+
+/*twitter*/
+.views-field-created-time
+{
+	clear:both;
+	float:right;
+		font-family: 'Museo300Regular';
+	font-size: 14px;
+	color:#959595;
+}
+.view-tweets ul
+{
+	list-style-type: none;
+
+}
+.view-tweets ul li
+{
+	margin:0px;
+	padding:0px;
+}
+#block-views-tweets-block h2
+{
+	color:#961b1e;
+	font-family: 'Museo700Regular';
+	font-size:24px;
+	margin-bottom:10px;
+	font-weight:lighter;
+}
+
+.region-sidebar-second
+{
+	background-color:#fff;
+	border:1px solid #e1e1e1;
+		padding:22px;
+	}	
+	
+/*	menu overrides*/
+	li.expanded, li.collapsed, li.leaf
+	{
+		padding-top:0px;
+	}
+#site-header, #site-subheader, #footer-region, .column, .node, .comment, .block {
+    margin-bottom: 0;
+}
+
+#site-menu
+{
+	margin-bottom:30px;
+}
+.view-footer a
+{
+	text-align:right;
+	font-size:18px;
+	text-decoration:none;
+	font-family: 'Museo700Regular';
+	float:right;
+}
+iframe.twitter-share-button
+{
+padding-left:15px;
+}
+
+/*blog nodes*/
+	body.node-type-blog #main-content
+	{
+		background-color:#fff;
+		border:1px solid #e1e1e1;
+		padding:22px;
+	}

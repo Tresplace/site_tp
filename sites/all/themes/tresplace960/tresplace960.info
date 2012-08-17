@@ -1,0 +1,22 @@
+name = TresPlace grid theme.
+description = Sub theme based off ninesixty
+screenshot = images/screenshot.png
+core = 7.x
+engine = phptemplate
+base theme = ninesixty
+
+
+stylesheets[screen][] = styles/tres960.css
+stylesheets[screen][] = styles/fonts.css
+stylesheets[screen][] = styles/framework/debug.css
+
+regions[page_top]       = Page top
+regions[header]         = Header
+regions[search_box]     = Search Box
+regions[highlighted]    = Highlight
+regions[help]           = Help
+regions[content]        = Content
+regions[sidebar_first]  = Left sidebar
+regions[sidebar_second] = Right sidebar
+regions[footer]         = Footer
+regions[page_bottom]    = Page bottom
