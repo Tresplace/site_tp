@@ -252,3 +252,15 @@ padding-left:15px;
 		border:1px solid #e1e1e1;
 		padding:22px;
 	}
+	h1#page-title
+	{
+		color: #961B1E;
+	    font-family: 'Museo700Regular';
+	    font-size: 32px;
+	    margin-bottom: 0;
+	}
+
+.views-field-nothing
+{
+
+}
