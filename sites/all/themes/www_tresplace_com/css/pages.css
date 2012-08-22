@@ -337,3 +337,20 @@ body.not-logged-in .messages
 {
 display:none;
 }
+
+ul#home-men-temp
+{
+	float:right;
+	padding-right:20px;
+	list-style: none;
+}
+#home-men-temp li a
+{
+	font-family: "Museo500Regular";
+color:#951a20;
+text-decoration:none;
+}
+#home-men-temp li a:hover
+{
+	color:#757575;
+}

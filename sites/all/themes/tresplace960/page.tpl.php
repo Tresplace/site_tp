@@ -8,11 +8,16 @@ global $base_url;
   <div id="site-header" class="clearfix">
     <div id="branding" class="grid-12 clearfix">
     <?php if ($linked_logo_img): ?>
-      <span id="logo" class="grid-10 alpha"><?php print $linked_logo_img; ?></span>
+      <span id="logo" class="grid-1 alpha"><?php print $linked_logo_img; ?></span>
     <?php endif; ?>
+     <?php if ($main_menu_links || $secondary_menu_links): ?>
+    <div id="site-menu" class="grid-11">
+      <?php print $main_menu_links; ?>
+      <?php print $secondary_menu_links; ?>
+    </div>
+  <?php endif; ?>
     
-    
-    <div id="login" >
+    <div id="login" class="grid-1">
 
 <a href="<?php print $base_url;?>/user">
   <?php
@@ -37,12 +42,7 @@ else {
     <?php endif; ?>
     </div>
 
-  <?php if ($main_menu_links || $secondary_menu_links): ?>
-    <div id="site-menu" class="grid-12">
-      <?php print $main_menu_links; ?>
-      <?php print $secondary_menu_links; ?>
-    </div>
-  <?php endif; ?>
+ 
 
   <?php if ($page['search_box']): ?>
     <div id="search-box" class="grid-6 prefix-10"><?php print render($page['search_box']); ?></div>

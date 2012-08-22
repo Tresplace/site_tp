@@ -35,8 +35,10 @@ a {
 	display:block;
 	width:43px;
 	height:25px;
-	float:right;
+	left:868px;
 	padding:10px 14px;
+	margin:0px;
+	position:absolute
 }
 #login a
 {
@@ -52,6 +54,8 @@ text-decoration: underline;
 }
 ul#main-menu {
 	float: right;
+	margin-top:100px;
+	display:block;
 }
 ul#main-menu li
 {
@@ -77,7 +81,10 @@ h2 {
 	font-size: 32px;
 	color: #961b1e;
 	font-family: 'Museo700Regular';
-	margin-bottom: 0px;
+	margin: 0px;
+	padding:0px;
+line-height:1.4;
+
 }
 h2 a {
 	text-decoration: none;
@@ -224,13 +231,17 @@ a.feed-icon
 	{
 		padding-top:0px;
 	}
-#site-header, #site-subheader, #footer-region, .column, .node, .comment, .block {
+#site-subheader, #footer-region, .column, .node, .comment, .block {
     margin-bottom: 0;
 }
-
+#site-header
+{
+	margin-bottom:38px;
+}
 #site-menu
 {
-	margin-bottom:30px;
+	margin:0px;
+	padding:0px;
 }
 .view-footer a
 {
