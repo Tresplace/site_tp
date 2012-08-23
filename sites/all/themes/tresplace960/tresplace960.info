@@ -20,3 +20,6 @@ regions[sidebar_first]  = Left sidebar
 regions[sidebar_second] = Right sidebar
 regions[footer]         = Footer
 regions[page_bottom]    = Page bottom
+
+# /*special regions */
+regions[pour_sliders]    = Pourtrait Sliders

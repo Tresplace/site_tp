@@ -354,3 +354,7 @@ text-decoration:none;
 {
 	color:#757575;
 }
+iframe.vimeo-player
+{
+	width:960px !important;
+}
