@@ -271,7 +271,31 @@ padding-left:15px;
 	    margin-bottom: 0;
 	}
 
-.views-field-nothing
+#pour-slider, #views_slideshow_cycle_teaser_section_pourtrait_slide_shows-block
 {
 
+display:block;
+margin-left: auto;
+margin-right: auto;
+}
+.views_slideshow_main
+{
+	height:444px;
+}
+
+#pour-slider-title
+{
+	background-color:#951a20;
+	width:100%;
+	clear:both;
+	height:55px;
+}
+#pour-slider-title h1
+{
+	color:white;
+}
+
+.region-pour-sliders
+{
+	background-color:black;
 }
