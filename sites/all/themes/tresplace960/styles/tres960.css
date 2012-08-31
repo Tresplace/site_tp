@@ -42,7 +42,7 @@ a {
 }
 #login a
 {
-	font-family: 'Museo700Regular';
+	font-family: 'Museo500Regular';
 	font-size: 16px;
 	text-decoration: none;
 	color:#fff;
@@ -67,7 +67,7 @@ ul#main-menu li.last
 }
 
 ul#main-menu li a, ul#main-menu li a:visited {
-	font-family: 'Museo700Regular';
+	font-family: 'Museo500Regular';
 	font-size: 16px;
 	text-decoration: none;
 }
@@ -80,10 +80,10 @@ ul#main-menu li a.active {
 h2 {
 	font-size: 32px;
 	color: #961b1e;
-	font-family: 'Museo700Regular';
+	font-family: 'Museo500Regular';
 	margin: 0px;
 	padding:0px;
-line-height:1.4;
+line-height:1.1;
 
 }
 h2 a {
@@ -163,7 +163,7 @@ li.expanded, li.collapsed, li.leaf {
 .signature
 {
 	color:#961b1e;
-	font-family: 'Museo700Regular';
+	font-family: 'Museo500Regular';
 	font-size:16px;
 
 }
@@ -182,10 +182,17 @@ li.expanded, li.collapsed, li.leaf {
 padding:0;
 margin:0;
 position:static;
-
-
 }
 
+body.node-type-pourtrait #footer
+{
+background-image: url("../images/backwhite.png");	
+}
+
+body.node-type-pourtrait #main
+{
+	background-color:white;
+}
 a.feed-icon
 {
 	display:none;
@@ -213,7 +220,7 @@ a.feed-icon
 #block-views-tweets-block h2
 {
 	color:#961b1e;
-	font-family: 'Museo700Regular';
+	font-family: 'Museo500Regular';
 	font-size:24px;
 	margin-bottom:10px;
 	font-weight:lighter;
@@ -236,7 +243,7 @@ a.feed-icon
 }
 #site-header
 {
-	margin-bottom:38px;
+	margin-bottom:20px;
 }
 #site-menu
 {
@@ -248,7 +255,7 @@ a.feed-icon
 	text-align:right;
 	font-size:18px;
 	text-decoration:none;
-	font-family: 'Museo700Regular';
+	font-family: 'Museo500Regular';
 	float:right;
 }
 iframe.twitter-share-button
@@ -266,7 +273,7 @@ padding-left:15px;
 	h1#page-title
 	{
 		color: #961B1E;
-	    font-family: 'Museo700Regular';
+	    font-family: 'Museo500Regular';
 	    font-size: 32px;
 	    margin-bottom: 0;
 	}
@@ -289,13 +296,77 @@ margin-right: auto;
 	width:100%;
 	clear:both;
 	height:55px;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	vertical-align:middle;
 }
 #pour-slider-title h1
 {
 	color:white;
+	float:left;
+	font-weight:lighter;
 }
 
 .region-pour-sliders
 {
 	background-color:black;
+}
+
+table, td, tr
+{
+	margin:0;
+	padding:0;
+	vertical-align:top;
+border:0px solid;
+border-collapse:inherit;
+}
+table
+{
+	padding:0px;
+	margin:0px;
+}
+table img.image1
+{
+padding:5px 10px 0 0;
+margin-right:20px;
+
+}
+table td
+{
+margin:0px;
+}
+table td p
+{
+	padding:0px 0px;
+}
+
+#main
+{
+padding:10px;
+}
+.content
+{
+	margin:0px;
+	padding:0px;
+}
+
+table h3
+{
+	font-size:36px;
+	padding:40px;
+	line-height:41px;
+	font-weight:normal;
+
+}
+#location
+{
+	
+	color:white;
+	font-family: 'Museo300Regular';
+}
+
+.views-field-field-location
+{
+	color:white;
+float:right;
+padding-top:15px;
 }
